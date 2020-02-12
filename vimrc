@@ -1,5 +1,10 @@
 syntax on
-colorscheme mycolors
+try
+	colorscheme mycolors
+catch
+	colorscheme desert
+endtry
+
 highlight Cursor ctermfg=black
 
 " let php_folding = 2
