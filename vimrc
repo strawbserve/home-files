@@ -1,3 +1,6 @@
+" load the system vimrc
+source /etc/vimrc
+
 syntax on
 try
 	colorscheme mycolors
