@@ -1,2 +1,4 @@
 alias 'vi=vim -u /home/byager/.vimrc'
 alias 'screen=screen -c /home/byager/.screenrc'
+PATH=$PATH:/home/byager/scripts
+export PATH
