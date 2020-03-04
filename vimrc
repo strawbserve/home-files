@@ -1,6 +1,7 @@
 " load the system vimrc
 source /etc/vimrc
 
+set t_Co=256
 syntax on
 try
 	colorscheme mycolors
@@ -9,6 +10,12 @@ catch
 endtry
 
 highlight Cursor ctermfg=black
+
+" better colors for vimdiff
+highlight DiffAdd    ctermfg=Green ctermbg=DarkGray
+highlight DiffDelete ctermfg=Red ctermbg=DarkGray
+highlight DiffChange ctermfg=Yellow ctermbg=DarkGray
+highlight DiffText   ctermfg=DarkGray ctermbg=Yellow
 
 " let php_folding = 2
 " set foldlevel=99
