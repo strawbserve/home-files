@@ -32,6 +32,10 @@ set ruler
 set nohls
 set incsearch
 
+" https://sanctum.geek.nz/arabesque/vim-filename-completion/
+set wildmenu
+set wildmode=longest,list
+
 map <c-h> <c-w>h<c-w>_
 map <c-j> <c-w>j<c-w>_
 map <c-k> <c-w>k<c-w>_
